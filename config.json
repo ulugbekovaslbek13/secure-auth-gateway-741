@@ -1,0 +1,13 @@
+{
+  "application_environment": {
+    "deployment_target": "production-cluster-aws",
+    "microservice_version": "8.1.0-release",
+    "enable_global_encryption": true,
+    "security_level_compliance": "strict"
+  },
+  "data_retention_policy": {
+    "storage_backend": "distributed-s3-mesh",
+    "maximum_connections_limit": 100000,
+    "allowed_cors_origins": ["https://dashboard.matrix-node.internal"]
+  }
+}
